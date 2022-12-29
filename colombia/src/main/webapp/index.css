@@ -1,0 +1,168 @@
+.cabecera{
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.info{
+    position: absolute;
+    bottom: 10%;
+    text-align:right;
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.btn-outline-secondary{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/* TARJETAS */
+
+
+h3{
+    text-align: center;
+   margin-top: 30px;
+}
+
+.card-group{
+    margin-left: 5px;
+    margin: 20px;
+}
+
+.card{
+    margin: 20px;
+}
+
+
+.act2{
+
+    padding: 10px;
+}
+
+.espacio, .btn-outline-secondary{
+    margin: 10px;
+}
+
+.btn-warning, .btn-info, .btn-secondary{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/*info espejada*/
+
+.act2{
+    padding: 20px;
+}
+
+.espacio{
+    padding: 10px;
+}
+
+#columna{
+    background-color: grey;
+    color: white;
+}
+
+#consultanos{
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1230px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+/*FORMULARIO*/
+
+#floatingTextarea2{
+    width: 97%;
+}
+
+.formulario{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 100px;
+}
+
+
+.viajero{
+    font-size:47px;
+}
+
+.form-control{
+    margin: 10px;
+}
+
+.mensaje{
+    color: rgb(147, 145, 145);
+    margin-left: 10px;
+}
+
+@media (max-width: 700px){
+    .formulario{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+
+@media(max-width: 700px){
+.btn-primary{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+
+#vertodos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*FOOTER*/
+
+.pie{
+    display: flex;
+    background-color:darkorange;
+    height: 60px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footers{
+    color: white;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .pie{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .footers{
+        width: 100%;
+    }
+}

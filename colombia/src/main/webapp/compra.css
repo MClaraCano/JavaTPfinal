@@ -1,0 +1,143 @@
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.formDescuentos{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+@media (max-width: 1100px){
+    .formDescuentos{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
+#descuentos{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+
+.container1{
+    border: 1px solid rgb(93, 167, 223);
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-top: 20px;
+    color: black;
+}
+
+.container2{
+    border: 1px solid rgb(93, 167, 223);
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-top: 20px;
+    color: black;
+}
+
+
+.container3{
+    border: 1px solid rgb(208, 202, 36);
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-top: 20px;
+    color: black;
+}
+
+.venta{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    font-size: larger;
+}
+
+.valor{
+    text-align: center;
+}
+
+h1{
+    padding-top: 0%;
+}
+
+
+
+
+
+
+
+.botones{    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    background-color: limegreen;
+    color: white;
+    border-color: limegreen;
+    margin: 1px;
+    width: 50%;
+}
+
+
+#resumencito{
+    height: 50px;
+    background-color: rgb(196, 225, 234);
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 80px;
+    color: rgb(36, 102, 224);
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+#cajita{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.pie{
+    display: flex;
+    background-color:darkorange;
+    height: 60px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footers{
+    color: white;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .pie{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .footers{
+        width: 100%;
+    }
+}
